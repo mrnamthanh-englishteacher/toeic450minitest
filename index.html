@@ -2,6 +2,9 @@
 <html lang="vi">
 <head>
 <meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>✨ KHẢO BÀI TỪ VỰNG ✨</title>
 
 <style>
@@ -88,7 +91,7 @@ button{
 
 <div class="container">
 
-<h1>✨ KHẢO BÀI TỪ VỰNG EXTRA READING (LẦN 1) ✨</h1>
+<h1>✨ KHẢO BÀI TỪ VỰNG TOEIC ✨</h1>
 
 <div class="header">
 <input id="username" placeholder="Nhập tên của bạn...">
@@ -131,254 +134,254 @@ function shuffle(arr){
 // 📚 DATA
 let originalQuestions = [ 
 {
-  q: "mediocrity means ________.",
-  a: ["sự tầm thường", "sự kiên trì", "sự xuất sắc", "sự giàu có"],
+  q: "The phrase <b>be piled up</b> most nearly means ______.",
+  a: ["được trưng bày để bán", "được chất đống", "được phân loại vào các hộp", "được bày ra"],
+  c: 1
+},
+{
+  q: "The phrase <b>be stocked with items</b> most nearly means ______.",
+  a: ["được chất đầy hàng hóa", "được chất đầy sản phẩm", "được trưng bày trên giá", "được gắn lên tường"],
+  c: 1
+},
+{
+  q: "The phrase <b>browse the shelves</b> most nearly means ______.",
+  a: ["xem các kệ hàng", "nhìn vào cửa hàng", "nhìn vào ngăn kéo", "với tay vào tủ"],
   c: 0
 },
 {
-  q: "prominent means ________.",
-  a: ["nổi bật", "yếu ớt", "khiêm tốn", "mơ hồ"],
+  q: "The phrase <b>lead up to</b> most nearly means ______.",
+  a: ["đi dạo dọc bãi biển", "dẫn lên, dẫn tới", "buộc thuyền", "lên phương tiện"],
+  c: 1
+},
+{
+  q: "The phrase <b>deliver the speech</b> most nearly means ______.",
+  a: ["tiến hành cuộc trò chuyện", "tham dự hội nghị", "phát biểu", "ghi món khách gọi"],
+  c: 2
+},
+{
+  q: "The phrase <b>type on the keyboard</b> most nearly means ______.",
+  a: ["hướng thẳng vào màn hình", "gõ trên bàn phím", "di chuyển đồ nội thất", "mang chậu cây"],
+  c: 1
+},
+{
+  q: "The phrase <b>try on a dress</b> most nearly means ______.",
+  a: ["mặc áo khoác", "thử váy", "cởi áo khoác", "đi dọc đường"],
+  c: 1
+},
+{
+  q: "The phrase <b>meet a deadline</b> most nearly means ______.",
+  a: ["hoàn thành dự án", "đạt thỏa thuận", "lên lịch họp", "kịp hạn chót"],
+  c: 3
+},
+{
+  q: "The phrase <b>proofread a proposal</b> most nearly means ______.",
+  a: ["rà soát bản đề xuất", "xác nhận đặt chỗ", "đặt phòng khách sạn", "đặt lịch hẹn"],
   c: 0
 },
 {
-  q: "eminent means ________.",
-  a: ["nổi tiếng, lỗi lạc", "nguy hiểm", "nghèo khó", "cũ kỹ"],
+  q: "The phrase <b>out of order</b> most nearly means ______.",
+  a: ["hết hàng", "bị trì hoãn", "bị hư", "hoạt động bình thường"],
+  c: 2
+},
+{
+  q: "The phrase <b>shake hands</b> most nearly means ______.",
+  a: ["đưa vật gì cho ai", "cúi người", "bắt tay", "tựa vào lan can"],
+  c: 2
+},
+{
+  q: "The phrase <b>study the menu</b> most nearly means ______.",
+  a: ["kiểm tra thiết bị", "xem thực đơn", "được đặt ở góc", "được gắn lên tường"],
+  c: 1
+},
+{
+  q: "The phrase <b>apply for a position</b> most nearly means ______.",
+  a: ["ứng tuyển vị trí", "nộp đơn vào công ty", "đủ trình độ", "đủ điều kiện"],
   c: 0
 },
 {
-  q: "account (v) means ________.",
-  a: ["chiếm", "từ chối", "thay thế", "cải thiện"],
+  q: "The phrase <b>job opening</b> most nearly means ______.",
+  a: ["mô tả công việc", "đánh giá hiệu suất", "vị trí tuyển dụng", "đánh giá năng lực"],
+  c: 2
+},
+{
+  q: "The phrase <b>get a pay raise</b> most nearly means ______.",
+  a: ["được tăng lương", "được thăng chức", "nộp đơn nghỉ việc", "nhận trợ cấp thôi việc"],
   c: 0
 },
 {
-  q: "account for means ________.",
-  a: ["giải thích cho; chiếm", "phản đối", "trì hoãn", "che giấu"],
+  q: "The phrase <b>paid vacation</b> most nearly means ______.",
+  a: ["nghỉ thai sản", "kỳ nghỉ có lương", "tiền tăng ca", "buổi đào tạo"],
+  c: 1
+},
+{
+  q: "The phrase <b>boarding pass</b> most nearly means ______.",
+  a: ["đồ dùng cá nhân", "khoang hành lý phía trên", "thẻ lên máy bay", "giờ địa phương"],
+  c: 2
+},
+{
+  q: "The phrase <b>traffic congestion</b> most nearly means ______.",
+  a: ["cất cánh", "hạ cánh", "ùn tắc giao thông", "bị trì hoãn"],
+  c: 2
+},
+{
+  q: "The phrase <b>checkout counter</b> most nearly means ______.",
+  a: ["quầy thanh toán", "buổi ký tặng", "chụp ảnh", "in tài liệu"],
   c: 0
 },
 {
-  q: "devoted means ________.",
-  a: ["tận tâm", "thất vọng", "nghi ngờ", "bối rối"],
+  q: "The phrase <b>put in a service request</b> most nearly means ______.",
+  a: ["kiểm kê hàng hóa", "gửi yêu cầu sửa chữa", "hoạt động bình thường", "hết giấy"],
+  c: 1
+},
+{
+  q: "The phrase <b>give me a call</b> most nearly means ______.",
+  a: ["liên lạc lại với tôi", "giữ máy", "gọi cho tôi", "để lại lời nhắn"],
+  c: 2
+},
+{
+  q: "The phrase <b>press the pound key</b> most nearly means ______.",
+  a: ["khi nào bạn thuận tiện", "nhấn phím #", "xác nhận đặt chỗ", "đặt lịch hẹn"],
+  c: 1
+},
+{
+  q: "The phrase <b>bend over</b> most nearly means ______.",
+  a: ["đưa vật gì cho ai", "tựa vào lan can", "cúi người", "tựa vào tường"],
+  c: 2
+},
+{
+  q: "The phrase <b>be attached to the wall</b> most nearly means ______.",
+  a: ["được đặt ở góc", "được gắn lên tường", "được trưng bày trên giá", "được bày ra"],
+  c: 1
+},
+{
+  q: "The phrase <b>performance evaluation</b> most nearly means ______.",
+  a: ["đánh giá hiệu suất", "đánh giá năng lực", "mô tả công việc", "vị trí tuyển dụng"],
+  c: 1
+},
+{
+  q: "The phrase <b>offer a position</b> most nearly means ______.",
+  a: ["được tăng lương", "mời nhận việc", "được thăng chức", "nộp đơn nghỉ việc"],
+  c: 1
+},
+{
+  q: "The phrase <b>cover letter</b> most nearly means ______.",
+  a: ["sơ yếu lý lịch", "thư xin việc", "buổi đào tạo", "trợ cấp thôi việc"],
+  c: 1
+},
+{
+  q: "The phrase <b>fasten your seatbelt</b> most nearly means ______.",
+  a: ["tiếp tục ngồi yên", "giờ địa phương", "thắt dây an toàn", "đồ dùng cá nhân"],
+  c: 2
+},
+{
+  q: "The phrase <b>complimentary drinks / meals</b> most nearly means ______.",
+  a: ["mong được gặp lại quý khách", "đồ uống / bữa ăn miễn phí", "di chuyển đến cổng số 5", "quầy thanh toán"],
+  c: 1
+},
+{
+  q: "The phrase <b>run out of paper</b> most nearly means ______.",
+  a: ["in tài liệu", "kẹt giấy", "hoạt động bình thường", "hết giấy"],
+  c: 3
+},
+{
+  q: "The supermarket shelves are completely ______ with snacks because a new shipment arrived this morning.",
+  a: ["loaded with cargo", "stocked with items", "laid out", "sorted into boxes"],
+  c: 1
+},
+{
+  q: "Before the products are sent to different stores, they must first ______ by size and color.",
+  a: ["be piled up", "be sorted into boxes", "be displayed for sale", "be on display on the rack"],
+  c: 1
+},
+{
+  q: "The manager asked the staff to ______ all the new products near the entrance before the store opened.",
+  a: ["browse the shelves", "lay out", "reach into the cabinet", "look into the drawer"],
+  c: 1
+},
+{
+  q: "The cargo ship was ______ before leaving the harbor.",
+  a: ["tied up at the dock", "loaded with cargo", "stocked with items", "displayed for sale"],
+  c: 1
+},
+{
+  q: "The customer ______ and took out a notebook.",
+  a: ["looked into the store", "reached into the cabinet", "walked along the street", "boarded a vehicle"],
+  c: 1
+},
+{
+  q: "Before signing the contract, the lawyer asked both companies to ______.",
+  a: ["conduct a conversation", "schedule a meeting", "reach an agreement", "deliver the speech"],
+  c: 2
+},
+{
+  q: "The CEO will ______ at tomorrow's international business forum.",
+  a: ["attend the conference", "deliver the speech", "take a food order", "make an appointment"],
+  c: 1
+},
+{
+  q: "The hotel receptionist politely asked the guest to ______ if further assistance was needed.",
+  a: ["stay on the line", "leave a message", "give her a call", "press the pound key"],
+  c: 2
+},
+{
+  q: "The receptionist couldn't connect your call, so please ______ after the beep.",
+  a: ["get back to me", "stay on the line", "leave a message", "give two weeks' notice"],
+  c: 2
+},
+{
+  q: "The automated phone system asked callers to ______ to continue in English.",
+  a: ["get back to me", "stay on the line", "press the pound key", "put in a service request"],
+  c: 2
+},
+{
+  q: "The customer stood outside and ______ through the window to see whether the shop was open.",
+  a: ["looked into the drawer", "looked into the store", "browsed the shelves", "reached into the cabinet"],
+  c: 1
+},
+{
+  q: "The fisherman carefully ______ before walking away from the dock.",
+  a: ["boarded a vehicle", "tied up the boat", "carried potted plants", "walked along the street"],
+  c: 1
+},
+{
+  q: "Please ______ while entering your password so the camera can recognize your face.",
+  a: ["type on the keyboard", "face the screen directly", "remain seated", "lean against the wall"],
+  c: 1
+},
+{
+  q: "The movers spent the entire afternoon ______ into the new office.",
+  a: ["carrying potted plants", "boarding a vehicle", "moving furniture", "taking inventory"],
+  c: 2
+},
+{
+  q: "The gardener carefully ______ into the hotel lobby to decorate the reception area.",
+  a: ["carried potted plants", "took off a jacket", "studied the menu", "shook hands"],
   c: 0
 },
 {
-  q: "dedicated means ________.",
-  a: ["tận tụy", "liều lĩnh", "bướng bỉnh", "cô đơn"],
-  c: 0
+  q: "After coming inside because of the rain, everyone ______ before sitting down.",
+  a: ["put on a jacket", "took off a jacket", "tried on a dress", "fastened a seatbelt"],
+  c: 1
 },
 {
-  q: "committed means ________.",
-  a: ["tận tâm, cam kết", "tức giận", "sợ hãi", "tham lam"],
-  c: 0
+  q: "Many tourists enjoy ______ in the evening while watching the sunset.",
+  a: ["walking along the street", "strolling on the beach", "boarding a vehicle", "shaking hands"],
+  c: 1
 },
 {
-  q: "collective effort means ________.",
-  a: ["nỗ lực tập thể", "nỗ lực cá nhân", "cuộc tranh luận", "sự phản đối"],
-  c: 0
+  q: "The technician was asked to ______ carefully before restarting the production line.",
+  a: ["inspect a machine", "examine the equipment", "print a document", "take inventory"],
+  c: 1
 },
 {
-  q: "dissect means ________.",
-  a: ["phân tích kỹ", "phá hủy", "bỏ qua", "sao chép"],
-  c: 0
+  q: "The receptionist smiled and ______.",
+  a: ["bent over", "leaned on a railing", "handed the room key to the guest", "carried potted plants"],
+  c: 2
 },
 {
-  q: "fluid means ________.",
-  a: ["linh hoạt", "cứng nhắc", "khắc nghiệt", "tạm thời"],
-  c: 0
-},
-{
-  q: "conviction means ________.",
-  a: ["niềm tin vững chắc", "sự nghi ngờ", "sự lo lắng", "sự ganh tị"],
-  c: 0
-},
-{
-  q: "solitude means ________.",
-  a: ["sự cô độc", "sự náo nhiệt", "sự hợp tác", "sự tiến bộ"],
-  c: 0
-},
-{
-  q: "aesthetic means ________.",
-  a: ["thẩm mỹ", "kinh tế", "y tế", "pháp lý"],
-  c: 0
-},
-{
-  q: "crave means ________.",
-  a: ["khao khát", "từ chối", "né tránh", "ngăn cản"],
-  c: 0
-},
-{
-  q: "amidst means ________.",
-  a: ["giữa", "ngoài", "sau", "trước"],
-  c: 0
-},
-{
-  q: "harsh means ________.",
-  a: ["khắc nghiệt", "mềm mại", "yên tĩnh", "thanh lịch"],
-  c: 0
-},
-{
-  q: "navigating means ________.",
-  a: ["điều hướng; giải quyết", "từ bỏ", "lãng phí", "mô phỏng"],
-  c: 0
-},
-{
-  q: "expire means ________.",
-  a: ["hết hạn", "gia hạn", "cải thiện", "xuất hiện"],
-  c: 0
-},
-{
-  q: "extend means ________.",
-  a: ["gia hạn", "rút ngắn", "hủy bỏ", "từ chối"],
-  c: 0
-},
-{
-  q: "criticize means ________.",
-  a: ["chỉ trích", "ca ngợi", "bảo vệ", "động viên"],
-  c: 0
-},
-{
-  q: "ensure means ________.",
-  a: ["đảm bảo", "nghi ngờ", "trì hoãn", "phản đối"],
-  c: 0
-},
-{
-  q: "dynamic means ________.",
-  a: ["năng động", "đơn điệu", "cứng nhắc", "yếu đuối"],
-  c: 0
-},
-{
-  q: "resilience means ________.",
-  a: ["khả năng phục hồi", "sự thất vọng", "sự giàu có", "sự kiêu ngạo"],
-  c: 0
-},
-{
-  q: "complement (v) means ________.",
-  a: ["bổ sung, hỗ trợ", "chỉ trích", "cản trở", "phá hủy"],
-  c: 0
-},
-{
-  q: "complementary means ________.",
-  a: ["mang tính bổ sung", "miễn phí", "đắt đỏ", "hiếm gặp"],
-  c: 0
-},
-{
-  q: "complimentary means ________.",
-  a: ["miễn phí", "bổ sung", "tạm thời", "bất hợp pháp"],
-  c: 0
-},
-{
-  q: "compliment (n/v) means ________.",
-  a: ["lời khen; khen", "lời phàn nàn; phàn nàn", "lời xin lỗi; xin lỗi", "lời cảnh báo; cảnh báo"],
-  c: 0
-},
-{
-  q: "deploy means ________.",
-  a: ["triển khai", "thu hồi", "trì hoãn", "hủy bỏ"],
-  c: 0
-},
-{
-  q: "pay attention to means ________.",
-  a: ["chú ý đến", "phụ thuộc vào", "phản đối", "chịu đựng"],
-  c: 0
-},
-{
-  q: "focus on means ________.",
-  a: ["tập trung vào", "tránh xa", "từ bỏ", "thay thế"],
-  c: 0
-},
-{
-  q: "take notice of means ________.",
-  a: ["để ý đến", "bỏ qua", "chống lại", "che giấu"],
-  c: 0
-},
-{
-  q: "attract someone's attention means ________.",
-  a: ["thu hút sự chú ý của ai", "làm ai thất vọng", "khiến ai tức giận", "làm ai xấu hổ"],
-  c: 0
-},
-{
-  q: "invent a story means ________.",
-  a: ["bịa chuyện", "kể lại chuyện", "dịch chuyện", "ghi chép chuyện"],
-  c: 0
-},
-{
-  q: "contribute means ________.",
-  a: ["đóng góp", "phân phát", "quy cho", "trì hoãn"],
-  c: 0
-},
-{
-  q: "distribute means ________.",
-  a: ["phân phát", "đóng góp", "thu hồi", "cải thiện"],
-  c: 0
-},
-{
-  q: "attribute a to b means ________.",
-  a: ["quy A là do B", "thay A bằng B", "tách A khỏi B", "so sánh A với B"],
-  c: 0
-},
-{
-  q: "brave means ________.",
-  a: ["dũng cảm", "ích kỷ", "nhút nhát", "tham lam"],
-  c: 0
-},
-{
-  q: "courageous means ________.",
-  a: ["dũng cảm", "tức giận", "lười biếng", "khôn ngoan"],
-  c: 0
-},
-{
-  q: "bold means ________.",
-  a: ["táo bạo, dũng cảm", "yếu đuối", "nhút nhát", "buồn chán"],
-  c: 0
-},
-{
-  q: "conduct a survey means ________.",
-  a: ["tiến hành khảo sát", "hủy cuộc khảo sát", "sao chép khảo sát", "từ chối khảo sát"],
-  c: 0
-},
-{
-  q: "implement a law means ________.",
-  a: ["thực hiện, ban hành luật", "phản đối luật", "xóa bỏ luật", "sửa luật"],
-  c: 0
-},
-{
-  q: "prosperous means ________.",
-  a: ["thịnh vượng", "nghèo khó", "nguy hiểm", "cô đơn"],
-  c: 0
-},
-{
-  q: "affluent means ________.",
-  a: ["giàu có", "nổi tiếng", "kiên nhẫn", "bình thường"],
-  c: 0
-},
-{
-  q: "flourishing means ________.",
-  a: ["phát triển thịnh vượng", "suy giảm", "trì trệ", "cạn kiệt"],
-  c: 0
-},
-{
-  q: "prominent is closest in meaning to ________.",
-  a: ["eminent", "mediocre", "harsh", "fluid"],
-  c: 0
-},
-{
-  q: "crave is closest in meaning to ________.",
-  a: ["desire", "reject", "delay", "ignore"],
-  c: 0
-},
-{
-  q: "aesthetic is closest in meaning to ________.",
-  a: ["artistic", "financial", "medical", "scientific"],
-  c: 0
-},
-{
-  q: "prosperous is closest in meaning to ________.",
-  a: ["affluent", "harsh", "mediocre", "solitary"],
-  c: 0
-},
-{
-  q: "resilience is closest in meaning to ________.",
-  a: ["the ability to recover quickly", "weakness", "hesitation", "criticism"],
-  c: 0
+  q: "During the sightseeing tour, everyone stopped to ______ the famous statue.",
+  a: ["attend a signing event", "take a picture of", "print a document", "work properly"],
+  c: 1
 }
 ];
 
@@ -401,7 +404,7 @@ questions.forEach((q,i)=>{
   let div=document.createElement("div");
   div.className="question";
 
-  let html=`<b>${i+1}. ${q.q}</b>`;
+  let html=`${i+1}. ${q.q}`;
 
   q.a.forEach((ans,idx)=>{
     html+=`
@@ -476,10 +479,55 @@ if(hasEmpty){
   let now = new Date().toLocaleString();
 
   // hiển thị
-  document.getElementById("result").innerHTML =
-    `🎉 ${name} đúng ${score}/${questions.length}<br>
-     ⏰ ${now}<br>
-     ⚠️ TabSwitch: ${tabSwitchCount || 0}`;
+  let wrongRate = wrongList.length / questions.length;
+
+let resultHTML = `
+🎉 <b>${name}</b> đúng <b>${score}/${questions.length}</b><br>
+⏰ ${now}<br>
+⚠️ TabSwitch: ${tabSwitchCount || 0}<br><br>
+`;
+
+if(wrongRate < 0.3){
+
+    resultHTML += `
+    <h3>📚 Đáp án các câu sai</h3>
+    `;
+
+    wrongList.forEach((w,i)=>{
+        resultHTML += `
+        <div style="
+            border:1px solid #ddd;
+            padding:10px;
+            margin-bottom:10px;
+            border-radius:10px;
+            background:#fff8e6;
+        ">
+            <b>Câu ${i+1}</b><br>
+            ${w.question}<br><br>
+
+            ❌ Bạn chọn: <span style="color:red">${w.your}</span><br>
+            ✅ Đáp án: <span style="color:green">${w.correct}</span>
+        </div>
+        `;
+    });
+
+}else{
+
+    resultHTML += `
+    <div style="
+        background:#ffeaea;
+        padding:15px;
+        border-radius:12px;
+        color:#c00000;
+        font-weight:bold;
+    ">
+    ❌ Sai trên 30% mà đòi mấy đáp án của mẹ hả cưng?<br>
+    Học bài kỹ vô bữa sau mẹ khảo lại!
+    </div>
+    `;
+}
+
+document.getElementById("result").innerHTML = resultHTML;
 
   // ⭐ GỬI DATA FULL
   fetch("https://script.google.com/macros/s/AKfycbwKGHpjJy1RxNpGRIHdZtQiPfCrh0OSG24DEzQtRB7Ezlr1aki97aZL0JfQiSwkKmYmrg/exec",{
